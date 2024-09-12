@@ -1,0 +1,310 @@
+
+/* CSS-reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    max-width: 100%;
+
+}
+
+/* Nav-and-hero-area */
+
+.hero-section {
+    background-color: #0143c1;
+    /* position: absolute; */
+    height: 580px;
+    width: 100%;
+    max-width: 100%;
+    /* z-index: 1; */
+    
+}
+
+.nav-logo img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.nav-container {
+
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding-bottom: 10px;
+    max-width: 100%;
+    
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.nav-hr-line {
+    width: 70%;
+    margin: 0 15% 0 15%;
+    opacity: 75%;
+}
+.profile-picture {
+    width: 8rem;
+    margin: 40px 40% 10px 45%;
+}
+.hello {
+    margin: 0 20% 0 44%;
+    font-weight: 350;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.main-text {
+    margin: 0 20% 0 20%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 350;
+    color: #fff;
+}
+
+.btn-1 {
+    display: flex;
+    gap: 20px;
+    margin: 0 40%;
+    margin-top: 20px;
+}
+.email-button {
+    /* padding: 10px 25px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 75px;
+    color: #0143c1;
+    border-style: none;
+    font-weight: 550;
+
+}
+
+.email-button h5 {
+    margin-left: 5px;
+}
+
+.whatsapp-button {
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+    color: #0143c1;
+    border-style: none;
+    font-weight: 550;
+}
+.whatsapp-button h5 {
+    margin-left: 3px;
+}
+
+section .companies-container {
+    width: 80%;
+    background: #002a79;
+    height: 150px;
+    border-radius: 35px;
+    margin: 0 10%;
+    /* position: absolute; */
+    z-index: 2;
+    margin-top: -80px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    justify-items: center;
+}
+
+section .companies-container .sobebra {
+    margin-top: 55px;
+}
+
+section .companies-container .gozem {
+    margin-top: 49px;
+    width: 200px;
+}
+
+section .companies-container .mtn {
+    margin-top: 58px;
+    width: 100px;
+}
+
+section .companies-container .soundtrip {
+    margin-top: 55px;
+    width: 60px;
+}
+
+.offer {
+    /* margin: 0 20% 0 20%; */
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 350;
+    color: #000000;
+    margin: 50px 0 50px 0;
+    color: #0143c1;
+}
+
+.nav-hr-line-2 {
+    width: 70%;
+    margin: 0 15% 0 15%;
+    color: #0143c1;
+}
+
+/* Services section  */
+
+.services {
+    display: flex;
+    margin: 50px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.services .web-dev h3 {
+    margin: 80px 0px 0px 20px;
+    font-weight: 500;
+}
+
+.services .web-dev p {
+    margin: 20px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.services .design-creative h3 {
+    margin: 80px 0px 0px 20px;
+    font-weight: 500;
+}
+
+.services .design-creative p {
+    margin: 20px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.services .brand-growth-consulting h3 {
+    margin: 80px 0px 0px 20px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.services .brand-growth-consulting p {
+    margin: 20px;
+    margin-top: 5px;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+
+.services .human-capital-dev h3 {
+    margin: 80px 0px 0px 20px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.services .human-capital-dev p {
+    margin: 20px;
+    margin-top: 5px;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.web-dev {
+    height: 250px;
+    background-color: #0143c1;
+    width: 200px;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+.design-creative {
+    height: 250px;
+    background-color: #0143c1;
+    width: 200px;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+.brand-growth-consulting {
+    height: 250px;
+    background-color: #0143c1;
+    width: 200px;
+    border-radius: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.human-capital-dev {
+    height: 250px;
+    background-color: #0143c1;
+    width: 200px;
+    border-radius: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Get-in-touch section  */
+
+.get-in-touch {
+    background-color: #0143c1;
+    height: 300px;
+    width: 100%;
+    margin: 30px 0px;
+    padding-top: 50px;
+}
+
+.get-in-touch h2 {
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.get-in-touch a .cta-btn {
+    margin: 20px 50px 10px 580px;
+    padding: 20px 35px;
+    border-radius: 75px;
+    border-style: none;
+    border-color: #fff;
+}
+
+
+.nav-hr-line-3 {
+    width: 70%;
+    margin: 10px 15% 10px 15%;
+    color: #002a79c1;
+    
+}
+
+/* Footer  */
+
+footer {
+    display: flex;
+    gap: 600px;
+    margin-left: 215px;
+}
+
+footer .sm-handles {
+    display: flex;
+    gap: 10px;
+}
